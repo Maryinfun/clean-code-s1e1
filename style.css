@@ -10,10 +10,10 @@
   display: block;
   text-align: right;
 }
-.header-img {
+.header__img {
   width: 100%;
 }
-.more-info {
+.header__link {
   font-family: fantasy, cursive;
 }
 
@@ -35,7 +35,7 @@
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.plan__task-add-wrapper {
   display: flex;
 }
 .task-list {
@@ -43,7 +43,8 @@
   padding: 0px;
 }
 .item, 
-.title {
+.title,
+.plan__title {
   list-style: none;
 }
 .input,
@@ -64,7 +65,8 @@
 }
 
 /* Heading */
-.title {
+.title,
+.plan__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -90,7 +92,7 @@
 }
 
 /* New Task */
-.task-add-title {
+.plan__task-add-title {
   display: block;
   margin: 0 0 20px;
 }
